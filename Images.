@@ -1,0 +1,136 @@
+    <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=1200&auto=format&fit=crop&s=placeholder" alt="Hero car" style="width:100%;display:block">
+  </div>
+</section>
+
+<section class="features" aria-label="Why choose br adam cars">
+  <div class="feature">
+    <strong>Certified Vehicles</strong>
+    <p style="color:var(--muted);margin-top:8px">Every pre-owned car passes a multi-point inspection and comes with a warranty option.</p>
+  </div>
+  <div class="feature">
+    <strong>Transparent Pricing</strong>
+    <p style="color:var(--muted);margin-top:8px">No hidden fees. Clear breakdowns and competitive trade-in offers.</p>
+  </div>
+  <div class="feature">
+    <strong>Flexible Financing</strong>
+    <p style="color:var(--muted);margin-top:8px">Tailored payment plans and fast approvals from trusted lenders.</p>
+  </div>
+</section>
+
+<section id="inventory" class="inventory">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+    <h2 style="margin:0">Featured Inventory</h2>
+    <div style="color:var(--muted)">Showing 6 of 120 vehicles</div>
+  </div>
+
+  <div class="grid">
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop&s=placeholder" alt="Car 1">
+      <h4>Toyota Corolla 2024</h4>
+      <p>Automatic · 12,000 km · PKR 6,500,000</p>
+      <div style="display:flex;gap:8px;margin-top:10px">
+        <button class="btn btn-primary" style="padding:8px 12px;font-size:14px">Book Test Drive</button>
+        <button class="btn btn-outline" style="padding:8px 12px;font-size:14px">View Details</button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1549921296-3a6b3b3f9b2b?q=80&w=1200&auto=format&fit=crop&s=placeholder" alt="Car 2">
+      <h4>Honda Civic 2023</h4>
+      <p>Automatic · 8,500 km · PKR 7,200,000</p>
+      <div style="display:flex;gap:8px;margin-top:10px">
+        <button class="btn btn-primary" style="padding:8px 12px;font-size:14px">Book Test Drive</button>
+        <button class="btn btn-outline" style="padding:8px 12px;font-size:14px">View Details</button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop&s=placeholder" alt="Car 3">
+      <h4>Mercedes C-Class 2022</h4>
+      <p>Automatic · 20,000 km · PKR 18,500,000</p>
+      <div style="display:flex;gap:8px;margin-top:10px">
+        <button class="btn btn-primary" style="padding:8px 12px;font-size:14px">Book Test Drive</button>
+        <button class="btn btn-outline" style="padding:8px 12px;font-size:14px">View Details</button>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop&s=placeholder" alt="Car 4">
+      <h4>Hyundai Tucson 2024</h4>
+      <p>Automatic · 3,200 km · PKR 12,300,000</p>
+      <div style="display:flex;gap:8px;margin-top:10px">
+        <button class="btn btn-primary" style="padding:8px 12px;font-size:14px">Book Test Drive</button>
+        <button class="btn btn-outline" style="padding:8px 12px;font-size:14px">View Details</button>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517949908114-6f3b8f0b1f2b?q=80&w=1200&auto=format&fit=crop&s=placeholder" alt="Car 5">
+      <h4>BMW 3 Series 2021</h4>
+      <p>Automatic · 28,000 km · PKR 14,000,000</p>
+      <div style="display:flex;gap:8px;margin-top:10px">
+        <button class="btn btn-primary" style="padding:8px 12px;font-size:14px">Book Test Drive</button>
+        <button class="btn btn-outline" style="padding:8px 12px;font-size:14px">View Details</button>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?q=80&w=1200&auto=format&fit=crop&s=placeholder" alt="Car 6">
+      <h4>Ford Ranger 2023</h4>
+      <p>Manual · 15,000 km · PKR 11,800,000</p>
+      <div style="display:flex;gap:8px;margin-top:10px">
+        <button class="btn btn-primary" style="padding:8px 12px;font-size:14px">Book Test Drive</button>
+        <button class="btn btn-outline" style="padding:8px 12px;font-size:14px">View Details</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="offers" class="offers" aria-label="Special offers">
+  <div class="offer">
+    <h3 style="margin-top:0">Summer Finance Offer</h3>
+    <p style="opacity:0.95">Low down payments and competitive APRs. Pre-approval in minutes.</p>
+    <div style="margin-top:12px">
+      <button class="btn btn-primary">Get Pre-Approved</button>
+    </div>
+  </div>
+  <div class="offer" style="background:linear-gradient(90deg,#1b3b6b,#0b2545)">
+    <h3 style="margin-top:0">Certified Pre-Owned</h3>
+    <p style="opacity:0.95">Up to 2-year warranty and roadside assistance on selected models.</p>
+    <div style="margin-top:12px">
+      <button class="btn btn-primary">See Certified Cars</button>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <h3>What our customers say</h3>
+  <div class="testimonial">
+    <strong>Ali R.</strong>
+    <p style="margin:8px 0;color:var(--muted)">"Smooth buying experience and great after-sales support. Highly recommended."</p>
+  </div>
+  <div class="testimonial">
+    <strong>Sara K.</strong>
+    <p style="margin:8px 0;color:var(--muted)">"Transparent pricing and fast financing. The team helped me find the perfect car."</p>
+  </div>
+</section>
+
+<section id="contact" class="contact" aria-label="Contact br adam cars">
+  <div>
+    <h3>Visit our showroom</h3>
+    <p style="color:var(--muted)">Find us in Rawalpindi. Open Mon–Sat 9:00 AM – 7:00 PM</p>
+    <div style="background:var(--card);padding:12px;border-radius:12px;box-shadow:var(--shadow);margin-top:12px">
+      <strong>Address</strong>
+      <div style="color:var(--muted);margin-top:6px">Street 123, Satellite Town, Rawalpindi, Punjab, Pakistan</div>
+      <div style="margin-top:10px"><strong>Phone</strong><div style="color:var(--muted)">+92 300 0000000</div></div>
+      <div style="margin-top:10px"><strong>Email</strong><div style="color:var(--muted)">info@bradamcars.pk</div></div>
+    </div>
+
+    <div style="margin-top:12px">
+      <!-- Visual: map snapshot -->
