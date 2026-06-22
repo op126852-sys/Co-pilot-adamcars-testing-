@@ -1,0 +1,38 @@
+      <img src="https://images.unsplash.com/photo-1505765054863-3d3b1f7f3b2b?q=80&w=1200&auto=format&fit=crop&s=placeholder" alt="Map snapshot" style="width:100%;border-radius:12px;box-shadow:var(--shadow)">
+    </div>
+  </div>
+
+  <form id="contact-form" onsubmit="event.preventDefault(); alert('Thanks! We will contact you shortly.');">
+    <h3 style="margin-top:0">Book a test drive or ask a question</h3>
+    <label for="name">Full name</label>
+    <input id="name" required placeholder="Your full name" />
+    <label for="phone">Phone</label>
+    <input id="phone" required placeholder="+92 3xx xxxxxxx" />
+    <label for="vehicle">Interested vehicle</label>
+    <select id="vehicle">
+      <option>Any</option>
+      <option>Toyota Corolla 2024</option>
+      <option>Honda Civic 2023</option>
+      <option>Mercedes C-Class 2022</option>
+    </select>
+    <label for="message">Message</label>
+    <textarea id="message" rows="4" placeholder="Preferred date/time for test drive"></textarea>
+    <div style="display:flex;gap:10px">
+      <button class="btn btn-primary" type="submit">Request Test Drive</button>
+      <button class="btn btn-outline" type="button" onclick="window.location='tel:+923000000000'">Call Now</button>
+    </div>
+  </form>
+</section>
+
+<footer>
+  <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+    <div>
+      <strong>br adam cars</strong>
+      <div style="color:var(--muted)">© <span id="year"></span> br adam cars. All rights reserved.</div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:center">
+      <a href="#" style="color:var(--muted);text-decoration:none">Privacy</a>
+      <a href="#" style="color:var(--muted);text-decoration:none">Terms</a>
+    </div>
+  </div>
+</footer>
